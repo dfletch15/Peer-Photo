@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652E67331FDB1DE70066FC2C /* PeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E67321FDB1DE70066FC2C /* PeerCell.swift */; };
+		652E67351FDB24BB0066FC2C /* PeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E67341FDB24BB0066FC2C /* PeerManager.swift */; };
+		652E67371FDB25250066FC2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E67361FDB25250066FC2C /* HomeViewController.swift */; };
+		65B7C96D1FDCCD5B00344C87 /* sendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C96C1FDCCD5B00344C87 /* sendCell.swift */; };
+		65B7C96F1FDCCE5A00344C87 /* SendPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C96E1FDCCE5A00344C87 /* SendPhotoViewController.swift */; };
+		65B7C9711FDF0C9700344C87 /* PeerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C9701FDF0C9700344C87 /* PeerStruct.swift */; };
+		65B7C9731FDF2ED400344C87 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C9721FDF2ED400344C87 /* DisplayViewController.swift */; };
+		65B9C25F1FDB86E20040948F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9C25E1FDB86E20040948F /* PhotoViewController.swift */; };
+		65B9C2611FDC781B0040948F /* FriendListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B9C2601FDC781B0040948F /* FriendListController.swift */; };
 		65FB36071FC3D6D1008F9C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB36061FC3D6D1008F9C46 /* AppDelegate.swift */; };
-		65FB36091FC3D6D1008F9C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB36081FC3D6D1008F9C46 /* ViewController.swift */; };
 		65FB360C1FC3D6D1008F9C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FB360A1FC3D6D1008F9C46 /* Main.storyboard */; };
 		65FB360E1FC3D6D1008F9C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FB360D1FC3D6D1008F9C46 /* Assets.xcassets */; };
 		65FB36111FC3D6D1008F9C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FB360F1FC3D6D1008F9C46 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652E67321FDB1DE70066FC2C /* PeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerCell.swift; sourceTree = "<group>"; };
+		652E67341FDB24BB0066FC2C /* PeerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerManager.swift; sourceTree = "<group>"; };
+		652E67361FDB25250066FC2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		65B7C96C1FDCCD5B00344C87 /* sendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendCell.swift; sourceTree = "<group>"; };
+		65B7C96E1FDCCE5A00344C87 /* SendPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendPhotoViewController.swift; sourceTree = "<group>"; };
+		65B7C9701FDF0C9700344C87 /* PeerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerStruct.swift; sourceTree = "<group>"; };
+		65B7C9721FDF2ED400344C87 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		65B9C25E1FDB86E20040948F /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		65B9C2601FDC781B0040948F /* FriendListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListController.swift; sourceTree = "<group>"; };
 		65FB36031FC3D6D1008F9C46 /* Peer Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peer Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FB36061FC3D6D1008F9C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65FB36081FC3D6D1008F9C46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65FB360B1FC3D6D1008F9C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65FB360D1FC3D6D1008F9C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FB36101FC3D6D1008F9C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				65FB36061FC3D6D1008F9C46 /* AppDelegate.swift */,
-				65FB36081FC3D6D1008F9C46 /* ViewController.swift */,
+				652E67341FDB24BB0066FC2C /* PeerManager.swift */,
+				65B9C2601FDC781B0040948F /* FriendListController.swift */,
+				652E67361FDB25250066FC2C /* HomeViewController.swift */,
+				65B9C25E1FDB86E20040948F /* PhotoViewController.swift */,
+				65B7C96E1FDCCE5A00344C87 /* SendPhotoViewController.swift */,
+				65B7C9721FDF2ED400344C87 /* DisplayViewController.swift */,
+				65B7C9701FDF0C9700344C87 /* PeerStruct.swift */,
+				652E67321FDB1DE70066FC2C /* PeerCell.swift */,
+				65B7C96C1FDCCD5B00344C87 /* sendCell.swift */,
 				65FB360A1FC3D6D1008F9C46 /* Main.storyboard */,
 				65FB360D1FC3D6D1008F9C46 /* Assets.xcassets */,
 				65FB360F1FC3D6D1008F9C46 /* LaunchScreen.storyboard */,
@@ -136,8 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FB36091FC3D6D1008F9C46 /* ViewController.swift in Sources */,
+				65B7C9711FDF0C9700344C87 /* PeerStruct.swift in Sources */,
+				652E67331FDB1DE70066FC2C /* PeerCell.swift in Sources */,
+				65B7C9731FDF2ED400344C87 /* DisplayViewController.swift in Sources */,
 				65FB36071FC3D6D1008F9C46 /* AppDelegate.swift in Sources */,
+				65B9C25F1FDB86E20040948F /* PhotoViewController.swift in Sources */,
+				65B9C2611FDC781B0040948F /* FriendListController.swift in Sources */,
+				652E67351FDB24BB0066FC2C /* PeerManager.swift in Sources */,
+				65B7C96F1FDCCE5A00344C87 /* SendPhotoViewController.swift in Sources */,
+				652E67371FDB25250066FC2C /* HomeViewController.swift in Sources */,
+				65B7C96D1FDCCD5B00344C87 /* sendCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +309,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SJ9YSKN9X;
 				INFOPLIST_FILE = "Peer Photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "d.fletcher.Peer-Photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +325,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SJ9YSKN9X;
 				INFOPLIST_FILE = "Peer Photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "d.fletcher.Peer-Photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
